@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: #a99a67; /* Soft blue-green background */
+}
+
+.container {
+    text-align: center;
+    border-radius: 10px;
+    padding: 70px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* White background for the container */
+}
+
+.redirect-button {
+    display: unset;
+    margin: 10px auto;
+    padding: 15px 60px;
+    font-size: 32px;
+    color: #5A0DC4;
+    background-color: #e0e4e4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+}
+
+.redirect-button:hover {
+    background-color: #cfd8dc; /* Slightly darker grey on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.redirect-button:active {
+    transform: translateY(1px); /* Pushes the button down on click */
+}
